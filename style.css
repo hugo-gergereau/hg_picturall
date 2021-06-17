@@ -7,6 +7,47 @@ body
 
 }
 
+@media all and (max-width:480px)
+{
+.citation {float: none;}
+p {float: none;}
+.lien {float: none;}
+.position {float: none;}
+.slider {float: none;}
+.slides {float: none;}
+.slide {float: none;}
+#imagesContainer {float: none;}
+.wrapper {float: none;}
+
+}
+
+@media (max-width:480px) and (max-width:780px)
+{
+.citation {float: none;}
+p {float: none;}
+.lien {float: none;}
+.position {float: none;}
+.slider {float: none;}
+.slides {float: none;}
+.slide {float: none;}
+#imagesContainer {float: none;}
+.wrapper {float: none;}
+	 
+}
+
+
+@media (max-width:780px) and (max-width:979px)
+{
+.citation {float: none;}
+p {float: none;}
+.lien {float: none;}
+.position {float: none;}
+.slider {float: none;}
+.slides {float: none;}
+.slide {float: none;}
+#imagesContainer {float: none;}
+.wrapper {float: none;}	 
+}
 
 
 .citation
@@ -26,7 +67,6 @@ p
 {
 	font-family: Comic Sans MS, Comic Sans, cursive;
 	color: aqua;
-	text-align: center
 }
 
 .position
@@ -112,6 +152,4 @@ p
 	grid-gap: 10px  10px;
 	grid-auto-rows: 360px;
 	justify-content: center;
-
-
 }
