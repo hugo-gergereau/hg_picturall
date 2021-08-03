@@ -1,0 +1,16 @@
+@media screen and (max-width: 1280px)
+{
+    p{
+        color: brown;
+        font size: 60px;
+    }
+}
+
+
+@media screen and (max-width: 720px)
+{
+    p{
+        color: rgb(28, 243, 0);
+        
+    }
+}

@@ -8,6 +8,8 @@ body
 }
 
 
+
+
 /*
 @media all and (max-width:480px)
 {
@@ -68,9 +70,7 @@ p {float: none;}
 	right: 0;
 	background-color: rgb(51, 49, 49);
   }
-@media only screen and (min-width: 600px) 
-{
-}	
+
 {
     margin: 0px;
     padding: 0px;
@@ -119,11 +119,6 @@ nav a:hover{
   margin: 0px 20px;
   height: 1500px;
 }
-
-
-
-
-
 
 
 .citation
@@ -222,8 +217,6 @@ p
 
 }
 
-
-
 .wrapper
 {
 	display: grid;
@@ -232,15 +225,6 @@ p
 	grid-auto-rows: 360px;
 	justify-content: center;
 }
-
-
-
-
-
-
-
-
-
 
 .slider2
 {
