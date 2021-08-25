@@ -25,7 +25,7 @@ nav ul{
 
 nav li{
     float: left;
-    width: 25%;
+    width: 35%;
     text-align: center;
 }
 
@@ -80,21 +80,21 @@ p
 .slider
 {
 
-	width: 360px;
-	height: 360px;
+	width: 100px;
+	height: 100px;
 	overflow:hidden;
 }
 .slides
 {
-	width: calc(360px * 2);
+	width: calc(100px * 2);
 	animation: glisse 10s infinite;
 }
 
 .slide
 {
 	float: left;
-	height: 360px;
-	width: 360px;
+	height: 100px;
+	width: 100px;
 }
 
 	@keyframes glisse {
@@ -108,13 +108,13 @@ p
 			transform: translateX(0px);
 		}
 		43% {
-			transform: translateX(-360px);
+			transform: translateX(-100px);
 		}
 		66% {
-			transform: translateX(-360px);
+			transform: translateX(-100px);
 		}
 		76% {
-			transform: translateX(-360px);
+			transform: translateX(-100px);
 		}
 		100% {
 			transform: translateX(0px);
@@ -127,33 +127,29 @@ p
 #imagesContainer
 {
 	display: grid;
-	grid-template-columns: 360px 360px 360px;
+	grid-template-columns: 100px 100px 100px;
 	grid-gap: 10px  10px;
-	grid-auto-rows: 360px;
+	grid-auto-rows: 100px;
 	justify-content: center;
 
 }
 
 /* TAILLE IMAGE */
 
-.image 
+.image2 .image
 {
 
-	max-width: 100%;
-	max-height: 100%;
-
-
-
-
+	max-width: 100px;
+	max-height: 100px;
 }
 
 /* PLACEMENT DES IMAGES */
 .wrapper
 {
 	display: grid;
-	grid-template-columns: 360px 360px 360px;
+	grid-template-columns: 100px 100px 100px;
 	grid-gap: 10px  10px;
-	grid-auto-rows: 360px;
+	grid-auto-rows: 100px;
 	justify-content: center;
 }
 
@@ -162,21 +158,21 @@ p
 .slider2
 {
 
-	width: 360px;
-	height: 360px;
+	width: 100px;
+	height: 100px;
 	overflow:hidden;
 }
 .slides2
 {
-	width: calc(720px * 3);
+	width: calc (100px * 3);
 	animation: glisse2 15s infinite;
 }
 
 .slide2
 {
 	float: left;
-	height: 360px;
-	width: 360px;
+	height: 100px;
+	width: 100px;
 }
 
 @keyframes glisse2 {
@@ -184,16 +180,16 @@ p
 		transform: translateX(0);
 	}
 	10% {
-		transform: translateX(-360px);
+		transform: translateX(-100px);
 	}
 	33% {
-		transform: translateX(-360px);
+		transform: translateX(-100px);
 	}
 	43% {
-		transform: translateX(-720px);
+		transform: translateX(-200px);
 	}
 	66% {
-		transform: translateX(-720px);
+		transform: translateX(-200px);
 	}
 	76% {
 		transform: translateX(0px);
@@ -205,3 +201,130 @@ p
 
 
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
